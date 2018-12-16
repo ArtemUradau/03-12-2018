@@ -33,12 +33,63 @@ namespace Basic.Lesson_4._1
         //B4-P5/25. Switch_DayOfWeek
         public static void B4_P5_25_Switch_DayOfWeek()
         {
+            var today = DateTime.Today;
+            var dayOfWeek = (int)today.DayOfWeek;
+            switch (dayOfWeek - 1) {
+                case 0:
+                    Console.WriteLine("Доброго понедельника, Ольга");
+                    break;
+                case 1:
+                    Console.WriteLine("Доброго вторника, Ольга");
+                    break;
+                case 2:
+                    Console.WriteLine("Доброй среды, Ольга");
+                    break;
+                case 3:
+                    Console.WriteLine("Доброго четверга, Ольга");
+                    break;
+                case 4:
+                    Console.WriteLine("Доброй пятницы, Ольга");
+                    break;
+                case 5:
+                    Console.WriteLine("Доброй субботы, Ольга");
+                    break;
+                case 6:
+                    Console.WriteLine("Доброго воскресенья, Ольга");
+                    break;
+            }
         }
 
         //B4-P6/25. Switch_GameNavigation
         public static void B4_P6_25_Switch_GameNavigation()
         {
-            
+            LabelStart:
+
+            var buttom = Console.ReadKey();
+            switch (buttom.KeyChar)
+            {
+                case 'W':
+                case 'w':
+                    Console.WriteLine("Верх");
+                    break;
+                case 'S':
+                case 's':
+                    Console.WriteLine("Низ");
+                    break;
+                case 'A':
+                case 'a':
+                    Console.WriteLine("Лево");
+                    break;
+                case 'D':
+                case 'd':
+                    Console.WriteLine("Право");
+                    break;
+                default:
+                    Console.WriteLine("Куда прешь?");
+                    break;
+            }
+
+            goto LabelStart;
         }
 
         //B4-P7/25. For_10OddEven

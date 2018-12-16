@@ -8,6 +8,64 @@ namespace Basic.Lesson_4._1
 {
     partial class Lesson
     {
+        public static void LessonExampleFor()
+        {
+            Console.WriteLine("Type number1");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Type number2");
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Type result");
+                var result = Convert.ToInt32(Console.ReadLine());
+
+                if ((number1 + number2) != result)
+                {
+                    Console.WriteLine("Incorrect");
+                    continue;
+                }
+
+                Console.WriteLine("Coorect");
+                break;
+            }
+
+           
+        }
+
+        public static void LessonExampleWhile()
+        {
+            Console.WriteLine("Type number1");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Type number2");
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            int attempts = 2;
+            bool coorect = false;
+
+
+            do
+            {
+                Console.WriteLine("Type result");
+                var result = Convert.ToInt32(Console.ReadLine());
+
+                attempts--;
+
+                if ((number1 + number2) != result)
+                {
+                    Console.WriteLine("Correct");
+                    coorect = true;
+                }
+                else
+                {
+                    Console.WriteLine("Incorrect");
+                }
+
+            } while (!coorect && attempts != 0);
+        }
+
         public static void Switch_OddEven_Example()
         {
             var i = int.Parse(Console.ReadLine());
