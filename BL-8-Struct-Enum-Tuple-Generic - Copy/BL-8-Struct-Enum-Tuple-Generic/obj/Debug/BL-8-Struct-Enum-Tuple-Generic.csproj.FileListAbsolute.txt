@@ -1,0 +1,7 @@
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\B-8-Struct-Enum-Generic-Tuple\BL8-Start\BL-8-Struct-Enum-Tuple-Generic\BL-8-Struct-Enum-Tuple-Generic\obj\Debug\BL-8-Struct-Enum-Tuple-Generic.csprojAssemblyReference.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\B-8-Struct-Enum-Generic-Tuple\BL8-Start\BL-8-Struct-Enum-Tuple-Generic\BL-8-Struct-Enum-Tuple-Generic\obj\Debug\BL-8-Struct-Enum-Tuple-Generic.csproj.CoreCompileInputs.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\B-8-Struct-Enum-Generic-Tuple\BL8-Start\BL-8-Struct-Enum-Tuple-Generic\BL-8-Struct-Enum-Tuple-Generic\bin\Debug\BL-8-Struct-Enum-Tuple-Generic.exe.config
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\B-8-Struct-Enum-Generic-Tuple\BL8-Start\BL-8-Struct-Enum-Tuple-Generic\BL-8-Struct-Enum-Tuple-Generic\bin\Debug\BL-8-Struct-Enum-Tuple-Generic.exe
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\B-8-Struct-Enum-Generic-Tuple\BL8-Start\BL-8-Struct-Enum-Tuple-Generic\BL-8-Struct-Enum-Tuple-Generic\bin\Debug\BL-8-Struct-Enum-Tuple-Generic.pdb
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\B-8-Struct-Enum-Generic-Tuple\BL8-Start\BL-8-Struct-Enum-Tuple-Generic\BL-8-Struct-Enum-Tuple-Generic\obj\Debug\BL-8-Struct-Enum-Tuple-Generic.exe
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\B-8-Struct-Enum-Generic-Tuple\BL8-Start\BL-8-Struct-Enum-Tuple-Generic\BL-8-Struct-Enum-Tuple-Generic\obj\Debug\BL-8-Struct-Enum-Tuple-Generic.pdb
