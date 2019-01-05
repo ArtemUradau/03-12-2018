@@ -62,7 +62,7 @@ namespace BL_8_Struct_Enum_Tuple_Generic
 
     enum Days1 { Sat = 0, Sun = 1, Mon = 2, Tue = 3, Wed = 4, Thu = 5, Fri = 6 };
 
-    enum Days2 { Sat = 6, Sun, Mon = 1, Tue, Wed, Thu, Fri };
+    enum Days2 { Sat = 6, Sun, Mon = 1, Tue, Wed, Thu, Fri, Fri2 = 6, Fri3 };
 
     [Flags]//Данный атрибут не обязателен
     enum Day

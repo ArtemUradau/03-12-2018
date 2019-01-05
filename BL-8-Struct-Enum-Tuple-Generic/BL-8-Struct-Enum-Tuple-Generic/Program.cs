@@ -14,6 +14,8 @@ namespace BL_8_Struct_Enum_Tuple_Generic
 
             Lesson.EnumExample();
 
+            //Lesson.StructExample2();
+
             Console.ReadLine();
         }
     }

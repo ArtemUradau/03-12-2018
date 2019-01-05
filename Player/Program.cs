@@ -12,10 +12,15 @@ namespace MusicPlayer
         {
             var player = new Player();
             //player.Volume = 20;
-            int min;
-            int max;
-            int total = 0;
-            player.Add(GetSongsData(out min, out max, ref total));
+
+            var result = GetSongsData();
+            var (songs, total, max, min) = result;
+
+            player.Add(songs);
+
+            //int min = result.min;
+            //int max = result.max;
+            //int total = result.total; 
 
             Console.WriteLine($"Min = {min}, max = {max}, total = {total}");
 
@@ -49,10 +54,11 @@ namespace MusicPlayer
             Console.ReadLine();
         }
 
-        public static Song[] GetSongsData(out int minDuration, out int maxDuration, ref int totalDuration)
+        public static (Song[], int, int, int) GetSongsData()
         {
-            minDuration = 1000;
-            maxDuration = 0;
+            var minDuration = 1000;
+            var maxDuration = 0;
+            var totalDuration = 0;
 
             var artist = new Artist();
             artist.Name = "Powerwolf";
@@ -72,7 +78,7 @@ namespace MusicPlayer
 
             Song[] songs = new Song[10];
             var random = new Random();
-            
+
             for (int i = 0; i < 10; i++)
             {
                 var song = new Song()
@@ -89,9 +95,22 @@ namespace MusicPlayer
                 {
                     minDuration = song.Duration;
                 }
+
                 maxDuration = Math.Max(maxDuration, song.Duration);
             }
-            return songs;
+
+
+            //return new Object[]{ songs , totalDuration, maxDuration, minDuration };
+
+            //return new Tuple<Song[], int, int, int>(songs, totalDuration, maxDuration, minDuration);
+
+            return (songs, totalDuration, maxDuration, minDuration);
+
+
+            //class Tuplesongsarrayintintint {
+            //Song[] Item1;
+            //int Item2
+            //}
         }
 
         public static void TraceInfo(Player player)
