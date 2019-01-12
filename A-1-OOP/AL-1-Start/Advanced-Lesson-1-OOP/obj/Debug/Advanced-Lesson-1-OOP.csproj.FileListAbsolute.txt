@@ -1,0 +1,7 @@
+D:\ITAcademy\Lessons-Git-Templates\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\bin\Debug\Advanced-Lesson-1-OOP.exe.config
+D:\ITAcademy\Lessons-Git-Templates\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\bin\Debug\Advanced-Lesson-1-OOP.exe
+D:\ITAcademy\Lessons-Git-Templates\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\bin\Debug\Advanced-Lesson-1-OOP.pdb
+D:\ITAcademy\Lessons-Git-Templates\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\obj\Debug\Advanced-Lesson-1-OOP.csprojAssemblyReference.cache
+D:\ITAcademy\Lessons-Git-Templates\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\obj\Debug\Advanced-Lesson-1-OOP.csproj.CoreCompileInputs.cache
+D:\ITAcademy\Lessons-Git-Templates\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\obj\Debug\Advanced-Lesson-1-OOP.exe
+D:\ITAcademy\Lessons-Git-Templates\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\Advanced-Lesson-1-OOP\obj\Debug\Advanced-Lesson-1-OOP.pdb

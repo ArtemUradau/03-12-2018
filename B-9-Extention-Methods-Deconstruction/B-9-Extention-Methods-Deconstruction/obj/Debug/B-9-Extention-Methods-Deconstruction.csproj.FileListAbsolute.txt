@@ -1,0 +1,7 @@
+d:\ITAcademy\03-12-2018\GIT\B-9-Extention-Methods-Deconstruction\B-9-Extention-Methods-Deconstruction\bin\Debug\Base-Lesson-9.exe.config
+d:\ITAcademy\03-12-2018\GIT\B-9-Extention-Methods-Deconstruction\B-9-Extention-Methods-Deconstruction\bin\Debug\Base-Lesson-9.exe
+d:\ITAcademy\03-12-2018\GIT\B-9-Extention-Methods-Deconstruction\B-9-Extention-Methods-Deconstruction\bin\Debug\Base-Lesson-9.pdb
+d:\ITAcademy\03-12-2018\GIT\B-9-Extention-Methods-Deconstruction\B-9-Extention-Methods-Deconstruction\obj\Debug\B-9-Extention-Methods-Deconstruction.csprojAssemblyReference.cache
+d:\ITAcademy\03-12-2018\GIT\B-9-Extention-Methods-Deconstruction\B-9-Extention-Methods-Deconstruction\obj\Debug\B-9-Extention-Methods-Deconstruction.csproj.CoreCompileInputs.cache
+d:\ITAcademy\03-12-2018\GIT\B-9-Extention-Methods-Deconstruction\B-9-Extention-Methods-Deconstruction\obj\Debug\Base-Lesson-9.exe
+d:\ITAcademy\03-12-2018\GIT\B-9-Extention-Methods-Deconstruction\B-9-Extention-Methods-Deconstruction\obj\Debug\Base-Lesson-9.pdb

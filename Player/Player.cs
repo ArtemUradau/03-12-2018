@@ -41,7 +41,7 @@ namespace MusicPlayer
             }
         }
 
-        public Song[] Songs { get; private set; }
+        public List<Song> Songs { get; private set; } = new List<Song>();
 
         public void VolumeUp()
         {
@@ -104,7 +104,23 @@ namespace MusicPlayer
 
         public void Add(params Song[] songArr)
         {
-            Songs = songArr;
+            Songs.AddRange(songArr);
+        }
+        public void Shuffle()
+        {
+            Random rnd = new Random();
+
+            for(int i = Songs.Count-1; i>=0; i--)
+            {
+                var song = Songs[rnd.Next(Songs.Count - 1)];
+                Songs.Remove(song);
+                Songs.Add(song);
+            }
+            
+        }
+        public void Sort()
+        {
+            Songs.Sort();
         }
     }
 }

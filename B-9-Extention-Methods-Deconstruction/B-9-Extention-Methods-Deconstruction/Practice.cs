@@ -16,7 +16,21 @@ namespace Base_Lesson_9.Practice
         /// </summary>
         public static void L9_P_EX_1_from_2()
         {
+            var coordinate1 = new Coordinates {a = 1, b = 2, c = 3 };
+            var (_, _, _, result) = coordinate1;
+            Console.WriteLine(result);
+        }
 
+        public struct Coordinates
+        {
+            public int a, b, c;
+            public void Deconstruct(out int a, out int b, out int c, out double vector)
+            {
+                a = this.a;
+                b = this.b;
+                c = this.c;
+                vector = Math.Sqrt(a*a + b*b + c*c);
+            }
         }
 
         /// <summary>
