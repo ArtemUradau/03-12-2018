@@ -22,6 +22,16 @@ namespace Advanced_Lesson_1_OOP
             Transport winner = maserati;
             FuelCar firstPlace = (FuelCar)winner;
 
+
+            Transport fCar = new FuelCar() { Distance= 150, Fuel = 50, FuelUsage = 13 };
+            Transport eCar = new ElectroCar() { Distance = 300, Battery = 500, DistanceBattery = 200 };
+
+            var cars = new Transport[] { fCar, eCar };
+
+            foreach (var car in cars)
+            {
+                car.Move(10);
+            }
         }   
     }
 
