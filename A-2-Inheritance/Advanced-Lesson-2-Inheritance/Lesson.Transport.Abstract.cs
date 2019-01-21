@@ -42,11 +42,11 @@ namespace Advanced_Lesson_2_Inheritance
             public double Fuel { get; protected set; }
             public double Consumption { get; protected set; }
 
-            public override void Move(double km)
-            {
-                Fuel -= km * Consumption;
-                Console.WriteLine("Car.Move");
-            }
+            //public override void Move(double km)
+            //{
+            //    Fuel -= km * Consumption;
+            //    Console.WriteLine("Car.Move");
+            //}
 
             public void FillUp(int liters)
             {

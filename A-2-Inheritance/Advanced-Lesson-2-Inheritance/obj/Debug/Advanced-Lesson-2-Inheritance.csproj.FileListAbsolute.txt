@@ -1,0 +1,7 @@
+d:\ITAcademy\03-12-2018\GIT\A-2-Inheritance\Advanced-Lesson-2-Inheritance\obj\Debug\Advanced-Lesson-2-Inheritance.csprojAssemblyReference.cache
+d:\ITAcademy\03-12-2018\GIT\A-2-Inheritance\Advanced-Lesson-2-Inheritance\obj\Debug\Advanced-Lesson-2-Inheritance.csproj.CoreCompileInputs.cache
+d:\ITAcademy\03-12-2018\GIT\A-2-Inheritance\Advanced-Lesson-2-Inheritance\bin\Debug\Advanced-Lesson-2-Inheritance.exe.config
+d:\ITAcademy\03-12-2018\GIT\A-2-Inheritance\Advanced-Lesson-2-Inheritance\bin\Debug\Advanced-Lesson-2-Inheritance.exe
+d:\ITAcademy\03-12-2018\GIT\A-2-Inheritance\Advanced-Lesson-2-Inheritance\bin\Debug\Advanced-Lesson-2-Inheritance.pdb
+d:\ITAcademy\03-12-2018\GIT\A-2-Inheritance\Advanced-Lesson-2-Inheritance\obj\Debug\Advanced-Lesson-2-Inheritance.exe
+d:\ITAcademy\03-12-2018\GIT\A-2-Inheritance\Advanced-Lesson-2-Inheritance\obj\Debug\Advanced-Lesson-2-Inheritance.pdb

@@ -87,6 +87,7 @@ namespace Advanced_Lesson_2_Inheritance
         {
             Transport transport1, transport2;
             Car car;
+
             transport1 = new Transport(35000);
             transport2 = new Car(10, 50, 35000);
             car = new Car(10, 50, 35000);
@@ -119,7 +120,7 @@ namespace Advanced_Lesson_2_Inheritance
 
             public double Mileage { get; protected set; }
 
-            public virtual void Move(double km)
+            public void Move(double km)
             {
                 Mileage += km;
                 Console.WriteLine($"Transport.Move: {km}");
@@ -165,7 +166,7 @@ namespace Advanced_Lesson_2_Inheritance
             public double Fuel { get; protected set; }
             public double Consumption { get; protected set; }
 
-            public override void Move(double km)
+            public new void Move(double km)
             {
                 base.Move(km);
                 Fuel -= km * Consumption;
