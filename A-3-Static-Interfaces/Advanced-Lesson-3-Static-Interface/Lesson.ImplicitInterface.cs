@@ -13,9 +13,12 @@ namespace Advanced_Lesson_3_Static_Interface
             SampleClass sc = new SampleClass();
             IControl ctrl = (IControl)sc;
             ISurface srfc = (ISurface)sc;
+            ///
+            
+            //sc.
 
             // The following lines all call the same method.
-            sc.Paint();
+            //sc.Paint();
             ctrl.Paint();
             srfc.Paint();
         }
@@ -38,6 +41,16 @@ namespace Advanced_Lesson_3_Static_Interface
         {
             Console.WriteLine("Paint method in SampleClass");
         }
+
+        //void IControl.Paint()
+        //{
+        //    Console.WriteLine("Paint method in SampleClass");
+        //}
+
+        //void ISurface.Paint()
+        //{
+        //    Console.WriteLine("Paint method in SampleClass");
+        //}
     }
     
 }

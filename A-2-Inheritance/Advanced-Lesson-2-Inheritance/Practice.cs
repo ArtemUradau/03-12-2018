@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Net;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,17 +25,18 @@ namespace Advanced_Lesson_2_Inheritance
 
             string type = Console.ReadLine();
 
-            Printer printer = null;
+            IPrinter printer = null;
 
             switch (type)
             {
                 case "1":
-                    printer = new ConsolePrinter("***",ConsoleColor.Blue);
+                    printer = new ConsolePrinter(ConsoleColor.Blue);
                     break;
                 case "2":
-                    printer = new FilePrinter("***","test");
+                    printer = new FilePrinter("test");
                     break;
                 case "3":
+                    printer = new BitmapPrinter("BitmapPrinerExample");
                     Console.WriteLine("You have chosen printing into image");
                     break;
             }
@@ -43,51 +45,74 @@ namespace Advanced_Lesson_2_Inheritance
 
             for (int i = 0; i < 5; i++)
             {
-                printer.PrintingText = Console.ReadLine();
-                printer?.Print();
+                var text = Console.ReadLine();
+                printer?.Print(text);
             }
         }  
-        
-        public  abstract class Printer
+         
+        public interface IPrinter
         {
-            public abstract void Print();
-
-            public Printer(string str)
-            {
-                PrintingText = str;
-            }
-
-            public string PrintingText { get; set; }
+            void Print(string str);
         }
-        public class ConsolePrinter : Printer
+        
+        public class ConsolePrinter : IPrinter
         {
-            public override void Print()
+            public void Print(string str)
             {
                 Console.ForegroundColor = _color;
-                Console.WriteLine(PrintingText);
+                Console.WriteLine(str);
                 Console.ResetColor();
             }
 
-            public ConsolePrinter(string str, ConsoleColor color):base(str)
+            public ConsolePrinter(ConsoleColor color)
             {
                 _color = color;
             }
 
             private ConsoleColor _color;
         }
-        public class FilePrinter : Printer
+        public class FilePrinter : IPrinter
         {
-            public override void Print()
+            public void Print(string str)
             {
-                System.IO.File.AppendAllText($@"D:\{_fileName}.txt",PrintingText);
+                System.IO.File.AppendAllText($@"D:\{_fileName}.txt",str);
             }
 
-            public FilePrinter(string str, string fileName) : base(str)
+            public FilePrinter(string fileName)
             {
                 _fileName = fileName;
             }
 
             private string _fileName;
+        }
+        public class BitmapPrinter : IPrinter
+        {
+            public string FileName { get; }
+            public void Print(string str)
+            {
+                Bitmap bitmap = new Bitmap(1000,1000);
+                // Create font and brush.
+                Font drawFont = new Font("Arial", 16);
+                SolidBrush drawBrush = new SolidBrush(Color.Black);
+
+                // Create point for upper-left corner of drawing.
+                float x = 150.0F;
+                float y = 50.0F;
+
+                // Set format of string.
+                StringFormat drawFormat = new StringFormat();
+                drawFormat.FormatFlags = StringFormatFlags.DirectionVertical;
+
+                // Draw string to screen.
+                Graphics graphics = Graphics.FromImage(bitmap);
+                graphics.DrawString(str, drawFont, drawBrush, x, y, drawFormat);
+
+                bitmap.Save($@"D:\{FileName}.png");
+            }
+            public BitmapPrinter(string fileName)
+            {
+                FileName = fileName;
+            }
         }
 
     }

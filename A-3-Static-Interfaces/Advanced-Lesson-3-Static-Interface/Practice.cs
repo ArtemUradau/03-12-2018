@@ -16,6 +16,12 @@ namespace Advanced_Lesson_3_Static_Interface
         /// </summary>
         public static void AL3_P1_3()
         {
+
+            for (int i = 0; i < 50; i++)
+            {
+                PracticeID a = new PracticeID();
+            }
+            Console.WriteLine(PracticeID.id);
         }
 
         /// <summary>
@@ -37,5 +43,22 @@ namespace Advanced_Lesson_3_Static_Interface
         {
         }
 
-    }    
+    }
+
+    public class PracticeID
+    {
+        public static int id { get; private set; }
+        public string name;
+
+        public PracticeID()
+        {
+            id++;
+        }
+
+        static PracticeID()
+        {
+            id = 1000;
+        }
+
+    }
 }
