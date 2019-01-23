@@ -1,0 +1,8 @@
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\bin\Debug\Advence.Lesson 6.exe.config
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\bin\Debug\Advence.Lesson 6.exe
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\bin\Debug\Advence.Lesson 6.pdb
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.csprojAssemblyReference.cache
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.csproj.CoreCompileInputs.cache
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.exe
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.pdb
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\bin\Debug\XMLFile.xml
