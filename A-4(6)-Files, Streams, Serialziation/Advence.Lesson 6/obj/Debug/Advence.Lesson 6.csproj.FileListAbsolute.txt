@@ -6,3 +6,11 @@ D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Adve
 D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.exe
 D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.pdb
 D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 6\Advence.Lesson 6\Advence.Lesson 6\bin\Debug\XMLFile.xml
+d:\ITAcademy\03-12-2018\GIT\A-4(6)-Files, Streams, Serialziation\Advence.Lesson 6\bin\Debug\XMLFile.xml
+d:\ITAcademy\03-12-2018\GIT\A-4(6)-Files, Streams, Serialziation\Advence.Lesson 6\bin\Debug\Advence.Lesson 6.exe.config
+d:\ITAcademy\03-12-2018\GIT\A-4(6)-Files, Streams, Serialziation\Advence.Lesson 6\bin\Debug\Advence.Lesson 6.exe
+d:\ITAcademy\03-12-2018\GIT\A-4(6)-Files, Streams, Serialziation\Advence.Lesson 6\bin\Debug\Advence.Lesson 6.pdb
+d:\ITAcademy\03-12-2018\GIT\A-4(6)-Files, Streams, Serialziation\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.csprojAssemblyReference.cache
+d:\ITAcademy\03-12-2018\GIT\A-4(6)-Files, Streams, Serialziation\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.csproj.CoreCompileInputs.cache
+d:\ITAcademy\03-12-2018\GIT\A-4(6)-Files, Streams, Serialziation\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.exe
+d:\ITAcademy\03-12-2018\GIT\A-4(6)-Files, Streams, Serialziation\Advence.Lesson 6\obj\Debug\Advence.Lesson 6.pdb

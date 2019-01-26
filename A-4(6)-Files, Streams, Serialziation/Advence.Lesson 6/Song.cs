@@ -9,8 +9,8 @@ namespace Advence.Lesson_6
         public string Title;
         public int Duration;
 
-       // [NonSerialized]
-        [XmlIgnore]
+       //[NonSerialized]
+        //[XmlIgnore]
         public string Lyrics;
     }
 }

@@ -22,8 +22,10 @@ namespace Advence.Lesson_6
             //BufferedStreamExample();
             //SericalizationExample();
             //XMLDocumentExample();
-            Lesson.XMLReaderExample();
+            //Lesson.XMLReaderExample();
             //Practice3_Task1_XMLSerizlization();
+            Lesson.DeSericalizationExample();
+            
             Console.ReadLine();
         }         
     }

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using Microsoft.Win32;
 
 namespace Advence.Lesson_6
 {
@@ -16,7 +17,10 @@ namespace Advence.Lesson_6
         /// Дата создания
         /// </summary>
         public static void AL6_P1_7_DirInfo()
-        {           
+        {   
+                        var dirInfo = new DirectoryInfo("C://Program Files");
+                        Console.WriteLine(dirInfo.Name);
+                        Console.WriteLine(dirInfo.CreationTime);
         }
 
 
@@ -28,6 +32,14 @@ namespace Advence.Lesson_6
         /// </summary>
         public static void AL6_P2_7_FileInfo()
         {
+            var dirInfo = new DirectoryInfo("d://ITAcademy/03-12-2018/GIT/A-4(6)-Files, Streams, Serialziation/Advence.Lesson 6");
+            var files = dirInfo.GetFiles("*.cs");
+            for (int i = 0; i < files.Length; i++)
+            {
+                Console.WriteLine(files[i].Name);
+                Console.WriteLine(files[i].CreationTime);
+                Console.WriteLine(files[i].Length);
+            }
         }
 
         /// <summary>
@@ -35,6 +47,9 @@ namespace Advence.Lesson_6
         /// </summary>
         public static void AL6_P3_7_CreateDir()
         {
+            var dir = Directory.CreateDirectory("c://Program Files Copy34");
+            Console.WriteLine(dir.Name);
+            Console.WriteLine(dir.CreationTime);
         }
 
 
@@ -43,15 +58,36 @@ namespace Advence.Lesson_6
         /// </summary>
         public static void AL6_P4_7_CopyFile()
         {
-
+            var dirInfo = new DirectoryInfo("d://ITAcademy/03-12-2018/GIT/A-4(6)-Files, Streams, Serialziation/Advence.Lesson 6");
+            var files = dirInfo.GetFiles("*.cs");
+            files[0].CopyTo("c://Program Files Copy34/" + files[0].Name);
         }
 
         /// <summary>
         /// AL6-P5/7-FileChat. Написать программу имитирующую чат. 
         /// Пускай в ней будут по очереди запрашивается реплики для User 1 и User 2 (используйте цикл из 5-10 итераций).  Сохраняйте данные реплики с ником пользователя и датой в файл на диске.
         /// </summary>
-        private static void AL6_P5_7_FileChat()
-        {           
+        public static void AL6_P5_7_FileChat()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                string s;
+                if (i%2 == 0) Console.Write("User 1: ");
+                else Console.Write("User 2: ");
+                s = Console.ReadLine();
+
+                var adapter = new StreamWriter("D://History.txt", true);
+                adapter.Write(DateTime.Now.ToShortDateString());
+                adapter.Write(" ");
+                if (i%2 == 0) adapter.Write("User 1: ");
+                else adapter.Write("User 2: ");
+                adapter.Write(s);
+                adapter.WriteLine();
+                adapter.Close();
+               
+
+
+            }
         }
 
         /// <summary>

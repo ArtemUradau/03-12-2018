@@ -29,11 +29,25 @@ namespace Advence.Lesson_6
 
             XmlSerializer xmlSerializer = new XmlSerializer(arr.GetType());
 
-            using (StringWriter textWriter = new StringWriter())
+            using (StreamWriter writer = new StreamWriter("d://XMLFile.xml"))
             {
-                xmlSerializer.Serialize(textWriter, arr);
-                var result = textWriter.ToString();
+                xmlSerializer.Serialize(writer, arr);
+                //var result = textWriter.ToString();
             }
+        }
+
+       public static void DeSericalizationExample()
+        {
+
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Song[]));
+            object result;
+
+            using (StreamReader writer = new StreamReader("d://XMLFile.xml"))
+            {
+                result = xmlSerializer.Deserialize(writer);
+            }
+
+
         }
 
     }
