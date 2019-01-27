@@ -1,0 +1,9 @@
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\bin\Debug\Advenced.Lesson_4.exe.config
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\bin\Debug\Advenced.Lesson_4.exe
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\bin\Debug\Advenced.Lesson_4.pdb
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\obj\Debug\Advenced. Lesson 4.csprojAssemblyReference.cache
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\obj\Debug\Advenced. Lesson 4.csproj.CoreCompileInputs.cache
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\obj\Debug\Advenced.Lesson_4.exe
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\obj\Debug\Advenced.Lesson_4.pdb
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\bin\Debug\Advenced.Lesson_4.exe.CodeAnalysisLog.xml
+D:\ITAcademy\M-ND1-33-18-10\GIT\Lessons\Advenced. Lesson 4\Advenced. Lesson 4\Advenced. Lesson 4\bin\Debug\Advenced.Lesson_4.exe.lastcodeanalysissucceeded
