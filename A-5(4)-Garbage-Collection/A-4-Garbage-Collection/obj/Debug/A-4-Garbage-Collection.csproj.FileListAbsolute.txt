@@ -1,0 +1,9 @@
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\bin\Debug\Advenced.Lesson_4.exe.config
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\bin\Debug\Advenced.Lesson_4.exe
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\bin\Debug\Advenced.Lesson_4.pdb
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\bin\Debug\Advenced.Lesson_4.exe.CodeAnalysisLog.xml
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\bin\Debug\Advenced.Lesson_4.exe.lastcodeanalysissucceeded
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\obj\Debug\A-4-Garbage-Collection.csprojAssemblyReference.cache
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\obj\Debug\A-4-Garbage-Collection.csproj.CoreCompileInputs.cache
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\obj\Debug\Advenced.Lesson_4.exe
+d:\ITAcademy\03-12-2018\GIT\A-5(4)-Garbage-Collection\A-4-Garbage-Collection\obj\Debug\Advenced.Lesson_4.pdb

@@ -13,8 +13,38 @@ namespace Advenced.Lesson_4
         /// AL4-P2/5.InstanceCounterWithHeapSize.
         /// AL4-P3/5.InstanceCounterWithGCCollect.
         /// </summary>
+        public class MyClass : IDisposable
+        {
+            public static int Number { get; set; }
+
+            public MyClass() => Number++;
+            ~MyClass()
+            {
+                //Number--;
+                Dispose();
+            }
+            public void Dispose()
+            {
+                Number--;
+                System.GC.SuppressFinalize(this);
+            }
+        }
+
         public static void AL4_P1_P2_P3_5_InstanceCounter()
         {
+            for (int i = 0; i < 500000; i++)
+            {
+                using (var bla = new MyClass())
+                {
+                    if (i % 50000 == 0)
+                    {
+                        Console.WriteLine("{0,30} - {1}", MyClass.Number, System.GC.GetTotalMemory(false));
+                        System.GC.Collect();
+                        Console.WriteLine("{0,30} - {1}", MyClass.Number, System.GC.GetTotalMemory(false));
+                    }
+                    //bla.Dispose(); - не надо теперь)))
+                }
+            }
         }
 
         /// <summary>
