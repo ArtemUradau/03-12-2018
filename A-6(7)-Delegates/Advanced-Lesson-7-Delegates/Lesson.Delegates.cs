@@ -33,6 +33,7 @@ namespace Advanced_Lesson_7_Delegates
                 for (int index = 0; index < arr.Length - 1; index++)
                 {                   
                     if (comparatorFunction(arr[index], arr[index + 1]) > 0)
+                    //if (comparatorFunction?.Invoke(arr[index], arr[index + 1]) > 0)
                     {
                         temp = arr[index + 1];
                         arr[index + 1] = arr[index];

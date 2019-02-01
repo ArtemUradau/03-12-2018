@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,22 +10,30 @@ namespace Advanced_Lesson_7_Delegates
     public partial class Lesson
     {
         public static void CarDelegateExample() {
+
             var car = new CarDelegate(10, 5, 1000) {
                 Tank = 50,
                 LastCheckEngineMileAge = 20
             };
 
-            car.LowFuelHandler += (double fuel) => {
-                Console.WriteLine($"Low fuel!!! {fuel}");
+            car.LowFuelEvent += OnLowFuelEvent;
+
+            car.CheckEngineEvent += (double mileAge) => {
+                Console.WriteLine($"Check Engine!!! {mileAge}");
             };
 
-            car.CheckEngineHandler += (double mileAge) => {
-                Console.WriteLine($"Check Engine!!! {mileAge}");
-            };            
+            car.CheckEngineEvent += (double mileAge) => {
+                Console.WriteLine("blablabla");
+            };
 
             car.Move(100);
 
-            car.CheckEngineHandler(25);
+            //car.CheckEngineEvent(25);
+        }
+
+        public static void OnLowFuelEvent(double fuel)
+        {
+            Console.WriteLine($"Low fuel!!! {fuel}");
         }
 
         public static void CarEventExample()
@@ -155,13 +164,21 @@ namespace Advanced_Lesson_7_Delegates
                 this.Consumption = consumption;
             }
 
-            public Action<double> LowFuelHandler = (double fuel) => { };
-            public Action<double> CheckEngineHandler = (double distance) => { };
+            public delegate void LowFuelDelegate(double fuel);
+            public delegate void CheckEngineDelegate(double fuel);
+
+            //public Action<double> LowFuelHandler = (double fuel) => { };
+            //public Action<double> CheckEngineHandler = (double distance) => { };
+
+            public event LowFuelDelegate LowFuelEvent;
+            public event CheckEngineDelegate CheckEngineEvent;
 
             public double Fuel { get; protected set; }
             public double Tank { get;  set; }
+
             public double Consumption { get; protected set; }
             public double IdleConsumption { get; set; }
+
             public double LastCheckEngineMileAge { get; set; }
 
             public override void Move(double km)
@@ -171,12 +188,16 @@ namespace Advanced_Lesson_7_Delegates
 
                 if (Fuel < Tank * 0.05)
                 {
-                    LowFuelHandler(Fuel);
+                    //LowFuelHandler(Fuel);
+                    if (LowFuelEvent != null)
+                    {
+                        LowFuelEvent(Fuel);
+                    }
                 }
 
                 if (Mileage > LastCheckEngineMileAge + 1000)
                 {
-                    CheckEngineHandler(Mileage);
+                    CheckEngineEvent(Mileage);
                 }
 
                 Console.WriteLine($"Car.Move: {km}");
@@ -188,7 +209,7 @@ namespace Advanced_Lesson_7_Delegates
 
                 if (Fuel < Tank * 0.05)
                 {
-                    LowFuelHandler(Fuel);
+                    LowFuelEvent(Fuel);
                 }
             }
 
