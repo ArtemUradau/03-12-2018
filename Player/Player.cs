@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace MusicPlayer
 {
@@ -12,9 +10,7 @@ namespace MusicPlayer
         const int MAX_VOLUME = 100;
 
         private bool _isLocked;
-
         private bool _isPlaying;
-
 
         private int _volume;
         public int Volume
@@ -41,7 +37,11 @@ namespace MusicPlayer
             }
         }
 
-        public List<Song> Songs { get; private set; } = new List<Song>();
+        public List<Song> Songs { get; } = new List<Song>();
+        public Song PlayingSong { get; private set; }
+
+        public event Action<List<Song>, Song, bool, int> SongsListChangedEvent;
+        public event Action<List<Song>, Song, bool, int> SongStartedEvent;
 
         public void VolumeUp()
         {
@@ -67,60 +67,75 @@ namespace MusicPlayer
             }
         }
 
+        public void Load(string source)
+        {
+            var dirInfo = new DirectoryInfo(source);
+
+            if (dirInfo.Exists)
+            {
+                var files = dirInfo.GetFiles();
+                foreach (var file in files)
+                {
+                    var song = new Song
+                    {
+                        Path = file.FullName,
+                        Name = file.Name
+                    };
+
+                    Songs.Add(song);
+                }
+            }
+
+            SongsListChangedEvent?.Invoke(Songs, null, _isLocked, _volume);
+        }
+
         public void Play()
         {
-            if (_isLocked)
+            if (!_isLocked && Songs.Count > 0)
             {
-                return;
+                _isPlaying = true;
             }
-            _isPlaying = true;
-            for (int i = 0; i < Songs.Length; i++)
-            {
-                Console.WriteLine($"Player is playing: {Songs[i].Name}, duration: {Songs[i].Duration}");
-                System.Threading.Thread.Sleep(1000);
-            }
-        }
 
-        public void Stop()
-        {
-            if (_isLocked)
+            if (_isPlaying)
             {
-                return;
+                foreach (var song in Songs)
+                {
+                    PlayingSong = song;
+                    SongStartedEvent?.Invoke(Songs, song, _isLocked, _volume);
+
+                    using (System.Media.SoundPlayer player = new System.Media.SoundPlayer())
+                    {
+                        player.SoundLocation = PlayingSong.Path;
+                        player.PlaySync();
+                    }
+                }
             }
+
             _isPlaying = false;
-            Console.WriteLine("Player has stopped");
         }
 
-        public void Locked()
+        public bool Stop()
+        {
+            if (!_isLocked)
+            {
+                _isPlaying = false;
+            }
+
+            return _isPlaying;
+        }
+
+        public void Clear()
+        {
+            Songs.Clear();
+        }
+
+        public void Lock()
         {
             _isLocked = true;
-            Console.WriteLine("Player is locked");
         }
         public void Unlock()
         {
             _isLocked = false;
-            Console.WriteLine("Player is unlocked");
-        }
-
-        public void Add(params Song[] songArr)
-        {
-            Songs.AddRange(songArr);
-        }
-        public void Shuffle()
-        {
-            Random rnd = new Random();
-
-            for(int i = Songs.Count-1; i>=0; i--)
-            {
-                var song = Songs[rnd.Next(Songs.Count - 1)];
-                Songs.Remove(song);
-                Songs.Add(song);
-            }
-            
-        }
-        public void Sort()
-        {
-            Songs.Sort();
         }
     }
 }

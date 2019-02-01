@@ -1,26 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MusicPlayer
+﻿namespace MusicPlayer
 {
     public class Artist
     {
         public string Genre;
         public string Name;
 
-        public Artist()
+        public Artist(): this("Default artist")
         {
-            this.Name = "Default artist";
-            this.Genre = "Default genre";
         }
 
-        public Artist(string name)
+        public Artist(string name): this(name, "Default genre")
         {
-            this.Name = name;
-            this.Genre = "Default genre";
         }
 
         public Artist(string name, string genre)
