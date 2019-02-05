@@ -15,7 +15,37 @@ namespace Advanced_Lesson_6_Multithreading
         /// консоли без перезапуска приложения.
         /// </summary>
         public static void LA8_P1_5()
-        {            
+        {
+            var timeThread = new Thread(() =>
+            {
+                while (true)
+                {
+                    Console.WriteLine(DateTime.Now);
+                    System.Threading.Thread.Sleep(1000);
+                    Console.Clear();
+                }
+            });
+            timeThread.Start();
+            while (true)
+            {
+                var key = Console.ReadKey().KeyChar;
+                if (key == '1')
+                {
+                    timeThread.Suspend();
+                }
+
+                if (key == '2')
+                {
+                    timeThread.Resume();
+                }
+                
+            }
+            //while(true)
+            //{
+            //    Console.WriteLine(DateTime.Now);
+            //    System.Threading.Thread.Sleep(1000);
+            //    Console.Clear();
+            //}
         }
 
         /// <summary>

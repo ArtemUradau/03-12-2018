@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -22,10 +23,10 @@ namespace Advanced_Lesson_6_Multithreading
         public static void AMPPlayerExample()
         {
             var player = new AMPPlayer();
-            player.BeginPlay((result) =>
+            player.Play(() =>
             {
                 Console.WriteLine("Player finished playing");
-            }, null);
+            });
         }
 
         public static void EventBasedPlayerExample()
@@ -104,23 +105,15 @@ namespace Advanced_Lesson_6_Multithreading
 
     public class AMPPlayer
     {
-        public IAsyncResult BeginPlay(AsyncCallback callback, object state)
+        public void Play(Action callback)
         {
-            var result = new PlayAsyncResult();
-
             var thread = new Thread(() =>
             {
-                Console.WriteLine("Playing...");                
-                callback?.Invoke(result);
+                File.AppendAllText("d:/blabla.txt", "blabla");            
+                callback?.Invoke();
             });
 
             thread.Start();
-
-            return result;
-        }
-
-        public void EndPlay(IAsyncResult asyncResult)
-        {
         }
     }
 

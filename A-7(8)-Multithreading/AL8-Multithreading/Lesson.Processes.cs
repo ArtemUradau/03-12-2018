@@ -17,8 +17,8 @@ namespace Advanced_Lesson_6_Multithreading
 
             Diagnostic.ListAllRunningProcesses();
             Diagnostic.ListAllProcessThreads();
-            Diagnostic.ListAllProcessCodeModules();
-            Diagnostic.ListAllAppDomains();
+            //Diagnostic.ListAllProcessCodeModules();
+            //Diagnostic.ListAllAppDomains();
         }
 
         public static void AppDomainPlayersExample()
@@ -88,7 +88,9 @@ namespace Advanced_Lesson_6_Multithreading
                 var thread = new Thread(() =>
                 {
                     var player = new Player($"Thread {i}");
+
                     player.List();
+
                     player.Play();
                 });
 

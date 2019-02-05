@@ -6,7 +6,8 @@ namespace Advanced_Lesson_6_AppDomain_Player
     {
         static void Main(string[] args)
         {
-            var player = new Player($"Player {args[0]}");
+            var playerName = args.Length > 0 ? args[0] : "Undefined";
+            var player = new Player($"Player {playerName}");
             player.Play();            
         }
     }

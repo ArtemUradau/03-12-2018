@@ -1,0 +1,15 @@
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\bin\Debug\Advanced-Lesson-6-Multithreading.exe.config
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\bin\Debug\Advanced-Lesson-6-Multithreading.exe
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\bin\Debug\Advanced-Lesson-6-Multithreading.pdb
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\bin\Debug\Advanced-Lesson-6-AppDomain-Player.exe
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\bin\Debug\Advanced-Lesson-6-Diagnostic.dll
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\bin\Debug\Advanced-Lesson-6-AppDomain-Player.pdb
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\bin\Debug\Advanced-Lesson-6-AppDomain-Player.exe.config
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\bin\Debug\Advanced-Lesson-6-Diagnostic.pdb
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\obj\Debug\AL8-Multithreading.csprojAssemblyReference.cache
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\obj\Debug\Interop.mscoree.dll
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\obj\Debug\AL8-Multithreading.csproj.ResolveComReference.cache
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\obj\Debug\AL8-Multithreading.csproj.CoreCompileInputs.cache
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\obj\Debug\AL8-Multithreading.csproj.CopyComplete
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\obj\Debug\Advanced-Lesson-6-Multithreading.exe
+d:\ITAcademy\03-12-2018\GIT\A-7(8)-Multithreading\AL8-Multithreading\obj\Debug\Advanced-Lesson-6-Multithreading.pdb
