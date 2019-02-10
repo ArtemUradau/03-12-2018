@@ -1,0 +1,6 @@
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\AudioPlayer\bin\Debug\AudioPlayer.dll
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\AudioPlayer\bin\Debug\AudioPlayer.pdb
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\AudioPlayer\obj\Debug\AudioPlayer.csprojAssemblyReference.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\AudioPlayer\obj\Debug\AudioPlayer.csproj.CoreCompileInputs.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\AudioPlayer\obj\Debug\AudioPlayer.dll
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\AudioPlayer\obj\Debug\AudioPlayer.pdb

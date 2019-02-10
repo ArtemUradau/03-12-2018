@@ -1,0 +1,6 @@
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Attributes-Reflection-et\bin\Debug\A-9-Attributes-Reflection-et.exe
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Attributes-Reflection-et\bin\Debug\A-9-Attributes-Reflection-et.pdb
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Attributes-Reflection-et\obj\Debug\A-9-Attributes-Reflection-et.csprojAssemblyReference.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Attributes-Reflection-et\obj\Debug\A-9-Attributes-Reflection-et.csproj.CoreCompileInputs.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Attributes-Reflection-et\obj\Debug\A-9-Attributes-Reflection-et.exe
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Attributes-Reflection-et\obj\Debug\A-9-Attributes-Reflection-et.pdb

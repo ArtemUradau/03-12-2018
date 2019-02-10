@@ -1,0 +1,13 @@
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\bin\Debug\WFAudioPlayer.exe.config
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\bin\Debug\WFAudioPlayer.exe
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\bin\Debug\WFAudioPlayer.pdb
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\bin\Debug\AudioPlayer.dll
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\bin\Debug\AudioPlayer.pdb
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.csprojAssemblyReference.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.Form1.resources
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.Properties.Resources.resources
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.csproj.GenerateResource.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.csproj.CoreCompileInputs.cache
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.csproj.CopyComplete
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.exe
+D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.pdb
