@@ -11,3 +11,16 @@ D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\
 D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.csproj.CopyComplete
 D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.exe
 D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\WFAudioPlayer\obj\Debug\WFAudioPlayer.pdb
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\bin\Debug\WFAudioPlayer.exe.config
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\bin\Debug\WFAudioPlayer.exe
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\bin\Debug\WFAudioPlayer.pdb
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\bin\Debug\AudioPlayer.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\bin\Debug\AudioPlayer.pdb
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\obj\Debug\WFAudioPlayer.csprojAssemblyReference.cache
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\obj\Debug\WFAudioPlayer.Form1.resources
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\obj\Debug\WFAudioPlayer.Properties.Resources.resources
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\obj\Debug\WFAudioPlayer.csproj.GenerateResource.cache
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\obj\Debug\WFAudioPlayer.csproj.CoreCompileInputs.cache
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\obj\Debug\WFAudioPlayer.csproj.CopyComplete
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\obj\Debug\WFAudioPlayer.exe
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\WFAudioPlayer\obj\Debug\WFAudioPlayer.pdb

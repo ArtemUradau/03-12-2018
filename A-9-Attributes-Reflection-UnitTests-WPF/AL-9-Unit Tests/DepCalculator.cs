@@ -11,7 +11,7 @@
         {
             var result = 1;
 
-            for (int i = 0; i < numbers.Length - 1; i++)
+            for (int i = 0; i <= numbers.Length - 1; i++)
             {
                 result += numbers[i];
             }

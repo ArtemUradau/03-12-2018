@@ -14,7 +14,8 @@ namespace A_9_Attributes_Reflection_et
             //Lesson.CallHiddenMemeberExample();
 
             //Lesson.AttributesSerializationExample();
-            Lesson.CustomAttributesSerializationExample();
+            //Lesson.CustomAttributesSerializationExample();
+            Lesson.SerializationExample();
 
             Console.ReadLine();
         }

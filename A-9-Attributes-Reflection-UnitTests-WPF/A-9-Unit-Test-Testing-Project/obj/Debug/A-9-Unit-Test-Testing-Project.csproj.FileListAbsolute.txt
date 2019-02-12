@@ -24,3 +24,29 @@ D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\
 D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Unit-Test-Testing-Project\bin\Debug\Moq.xml
 D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Unit-Test-Testing-Project\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Dropbox\HrueSpace\IT Academy\C#\Code\A-9-Attributes-Reflection-UnitTests-WPF\AL9-Start\A-9-Attributes-Reflection-et\A-9-Unit-Test-Testing-Project\bin\Debug\System.ValueTuple.xml
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\A-9-Unit-Test-Testing-Project.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\A-9-Unit-Test-Testing-Project.pdb
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\AL-9-Unit Tests.exe
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Castle.Core.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Moq.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\System.ValueTuple.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\AL-9-Unit Tests.pdb
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\AL-9-Unit Tests.exe.config
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Castle.Core.xml
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Moq.pdb
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\Moq.xml
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\bin\Debug\System.ValueTuple.xml
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\obj\Debug\A-9-Unit-Test-Testing-Project.csprojAssemblyReference.cache
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\obj\Debug\A-9-Unit-Test-Testing-Project.csproj.CoreCompileInputs.cache
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\obj\Debug\A-9-Unit-Test-Testing-Project.csproj.CopyComplete
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\obj\Debug\A-9-Unit-Test-Testing-Project.dll
+d:\ITAcademy\03-12-2018\GIT\A-9-Attributes-Reflection-UnitTests-WPF\A-9-Unit-Test-Testing-Project\obj\Debug\A-9-Unit-Test-Testing-Project.pdb

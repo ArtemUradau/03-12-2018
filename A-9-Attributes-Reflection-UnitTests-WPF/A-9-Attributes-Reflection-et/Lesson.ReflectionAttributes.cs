@@ -32,7 +32,11 @@ namespace A_9_Attributes_Reflection_et
 
 
             var serialized = Serializer.Serialize(song);
+
+            //var serialized = Serializer.Serialize(new [] {2 , 3});
+            //var serialized2 = Serializer.Serialize("Olga");
             Console.WriteLine(serialized);
+            //Console.WriteLine(serialized2);
         }
 
         public static void CallHiddenMemeberExample()
